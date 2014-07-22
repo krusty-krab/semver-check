@@ -1,0 +1,35 @@
+{
+  "name": "semver-check",
+  "version": "0.0.0",
+  "description": "Checks package.json dependencies and devDependencies stanzas for semantic version characters.",
+  "bin": {
+    "semver-check": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mjnw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krusty-krab/semver-check.git"
+  },
+  "keywords": [
+    "semver",
+    "semantic-version",
+    "semantic",
+    "version",
+    "check"
+  ],
+  "author": "Wayne Kenneth Seymour III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krusty-krab/semver-check/issues"
+  },
+  "homepage": "https://github.com/krusty-krab/semver-check",
+  "devDependencies": {
+    "minijasminenodewrap": "0.0.5"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1"
+  }
+}
