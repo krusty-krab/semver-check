@@ -28,8 +28,5 @@
   "homepage": "https://github.com/krusty-krab/semver-check",
   "devDependencies": {
     "minijasminenodewrap": "0.0.5"
-  },
-  "dependencies": {
-    "chalk": "^0.5.1"
   }
 }

@@ -10,7 +10,7 @@ Checks package.json dependencies and devDependencies stanzas for semantic versio
 $ npm install semver-check --save-dev
 
 # Add a dep to your package.json that has one of these chars: *=~<>^
-$ npm install chalk
+$ npm install chalk --save
 
 # Run as a cli program.
 $ ./node_modules/.bin/semver-check package.json
