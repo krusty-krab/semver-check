@@ -1,6 +1,6 @@
 {
   "name": "semver-check",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks package.json dependencies and devDependencies stanzas for semantic version characters.",
   "bin": {
     "semver-check": "./index.js"
