@@ -16,3 +16,7 @@ $ npm install chalk --save
 $ ./node_modules/.bin/semver-check package.json
 // -> chalk not pinned to specific version
 ```
+
+### Note
+The first() higher order function, [and why I'm using it](http://blog.wayneseymour.com/higher-order-function-first/).
+

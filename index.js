@@ -2,8 +2,10 @@
 
 /* jshint node:true */
 'use strict';
+
 var smc = require('./lib/semver-check');
-module.exports = smc.semverCheck;
+
+module.exports = smc;
 
 // If running as a cli program,
 if (require.main === module) {
