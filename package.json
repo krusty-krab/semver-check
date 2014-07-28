@@ -1,7 +1,7 @@
 {
   "name": "semver-check",
   "version": "0.0.1",
-  "description": "Checks package.json dependencies and devDependencies stanzas for semantic version characters.",
+  "description": "Checks package.json dependencies and devDependencies stanzas for semantic version characters.  If found, it logs each offending dependency to the console.",
   "bin": {
     "semver-check": "./index.js"
   },
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/krusty-krab/semver-check",
   "devDependencies": {
-    "minijasminenodewrap": "0.0.5"
+    "minijasminenodewrap": "1.0.0"
   }
 }
